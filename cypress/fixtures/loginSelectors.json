@@ -1,0 +1,63 @@
+{
+  "nav-buttons": {
+    "home": "li:nth-child(1) a:nth-child(1)",
+    "products": "a[href='/products']",
+    "cart": "a[href='/view_cart']",
+    "signup_login": "a[href='/login']",
+    "testCases": "a[href='/test_cases']",
+    "API_testing": "a[href='/api_list']",
+    "video_tutorials": "a[href='https://www.youtube.com/c/AutomationExercise']",
+    "contact_us": "a[href='/contact_us']"
+  },
+  
+  "login": {
+    "loginEmail": "input[data-qa='login-email']",
+    "loginPassword": "input[data-qa='login-password']",
+    "loginButton": "button[data-qa='login-button']",
+    "loginTitle": "'h2', 'Login to your account'"
+  },
+  
+  "signUp": {
+    "newUsernameInput": "input[data-qa='signup-name']",
+    "newUserEmail": "input[data-qa='signup-email']",
+    "signUpButton": "button[data-qa='signup-button']",
+    "signUpTitle": "'h2', 'New User Signup!'"
+  },
+  
+  "fillSignUp": {
+    "titleMr": "#id_gender1",
+    "titleMrs": "#id_gender2",
+    "username": "input[data-qa='name']",
+    "email": "input[data-qa='email']",
+    "password": "input[data-qa='password']",
+    "birth_day": "select[data-qa='days']",
+    "birth_month": "select[data-qa='months']",
+    "birth_year": "select[data-qa='years']",
+    "checkNewsletter": "input#newsletter",
+    "checkOffers": "input#optin",
+    "firstName": "input[data-qa='first_name']",
+    "lastName": "input[data-qa='last_name']",
+    "companyName": "input[data-qa='company']",
+    "address": "input[data-qa='address']",
+    "address2": "#address2",
+    "country": "select[data-qa='country']",
+    "state": "input[data-qa='state']",
+    "city": "input[data-qa='city']",
+    "zipcode": "input[data-qa='zipcode']",
+    "mobileNumber": "input[data-qa='mobile_number']",
+    "createAccountButton": "button[data-qa='create-account']"
+  },
+
+  "afterSignUp": {
+    "successTitle": "h2[class='title text-center'] b",
+    "continueButton": "a[data-qa='continue-button']",
+    "deleteAccountButton": "a[href='/delete_account']",
+    "logoutButton": "a[href='/logout']"
+  },
+
+  "subscription": {
+    "emailAddress": "input#susbscribe_email",
+    "submitButton": "#subscribe"
+  }
+
+}
