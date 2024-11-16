@@ -4,7 +4,7 @@
 - Node.js (Version Recomendada: LTS)
 
 1. Clonar el repositorio desde GitHub:
-    git clone https://github.com/your-username/test-skills.git
+    git clone https://github.com/nsaini410/test_toolbox_cypress
 
 2. Dirijirse al directorio raiz del proyecto e instalar las dependencias: 
     cd test_toolbox_cypress
